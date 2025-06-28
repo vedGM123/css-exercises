@@ -1,0 +1,13 @@
+.odd, .even {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.odd {
+    color: white;
+    background-color: black;
+}
+
+.even {
+    background-color: yellow;
+}
