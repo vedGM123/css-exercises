@@ -8,7 +8,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +17,7 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +29,7 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,3 +40,9 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+/* Here in this solution I used the specificity rule instead of rule order and didn't change position of any element
+If I have to use rule order then 
+1. Change the positon of .small-para class selector and place it under .para class selector since both of them have same specificity
+2. Change the position of confirm class and place it under button class.
+3. Change the position of .child class and place it under div.text since they have same specificity
+  */
